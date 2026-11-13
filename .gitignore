@@ -1,0 +1,20 @@
+# Secrets — prefix AND suffix forms (meta_token.env would slip past .env* alone)
+.env*
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Run output
+runs/
+outputs/
+out/
+*.mp4
+*.png
+*.jpg
+!docs/output.png
+!releases/*.skill

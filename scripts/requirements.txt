@@ -1,0 +1,8 @@
+# Python deps for the Meta Ads toolkit scripts.
+# ffmpeg is a SYSTEM dependency (used by smart_crop_video.py), not a pip package:
+#   macOS:  brew install ffmpeg
+#   Linux:  apt install ffmpeg
+Pillow
+numpy
+requests
+opencv-python
